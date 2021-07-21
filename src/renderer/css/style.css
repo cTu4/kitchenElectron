@@ -1,0 +1,178 @@
+.t-white{
+  color:#fff;
+}
+.t-blue{
+  color: #0090F9
+}
+.t-blue-a{
+  color: #2466F6;
+}
+.t-gray{
+  color: #8F9CB8;
+}
+.t-gray-op3{
+  color: #000000;
+  opacity: 0.3;
+}
+.t-gray-op5{
+  color: #000000;
+  opacity: 0.5;
+}
+.t-gray-op6{
+  color: #000000;
+  opacity: 0.6;
+}
+.t-green{
+  color: #21A300;
+}
+.t-purple{
+  color: #5D23C2;
+}
+.t-gold{
+  color: #C2A823;
+}
+.op-0{
+  opacity: 0;
+}
+.op-1{
+  opacity: 0.2;
+}
+.op-2{
+  opacity: 0.4;
+}
+.op-3{
+  opacity: 0.6;
+}
+.op-4{
+  opacity: 0.8;
+}
+.op-5{
+  opacity: 1;
+}
+
+
+.flex-1{
+  flex:1;
+}
+
+.margin_center{
+  margin: 30px 100px;
+}
+.pointer{
+  cursor: pointer;
+}
+.font-weight-300{
+  font-weight: 300!important;
+}
+.font-weight-400{
+  font-weight: 400!important;
+}
+.font-weight-500{
+  font-weight: 500!important;
+}
+.font-weight-600{
+  font-weight: 600!important;
+}
+.font-weight-700{
+  font-weight: 700!important;
+}
+.font-weight-800{
+  font-weight: 800!important;
+}
+.font-weight-900{
+  font-weight: 900!important;
+}
+.t-86px{
+  font-size: 86px;
+  line-height: 80px;
+  letter-spacing: -6px;
+}
+.t-56px{
+  font-size: 56px;
+  line-height: 96px;
+  letter-spacing: -6px;
+}
+.t-36px{
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: -1px;
+}
+.t-32px{
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -1.5px;
+}
+.t-28px{
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+}
+.t-25px{
+  font-size: 25px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+}
+.t-24px{
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1px;
+}
+.t-22px{
+  font-size: 22px!important;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+}
+.t-21px{
+  font-size: 21px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+}
+.t-17px{
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+.t-19px{
+  font-size: 19px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+}
+.t-18px{
+  font-size: 18px!important;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+}
+.t-16px{
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+}
+.t-15px{
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+}
+.t-14px{
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+}
+.t-13px{
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+}
+.t-12px{
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 1px!important;
+}
+.t-11px{
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: -0.1px;
+}
+.t-10px{
+  font-size: 10px;
+  line-height: 14px;
+}

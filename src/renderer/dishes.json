@@ -1,0 +1,94 @@
+{
+  "kanban": {
+    "Income": [
+      {
+        "id": 1,
+        "table_number": 8,
+        "name": "Steak",
+        "time": "120",
+        "comment": "Without honey",
+        "code": "D17",
+        "status": "In progress",
+        "guest": 3,
+        "options": [
+          "Label",
+          "Label 2"
+        ]
+      },
+      {
+        "id": 2,
+        "table_number": 5,
+        "name": "Steak Machette",
+        "time": "120",
+        "comment": "Without honey",
+        "code": "D17",
+        "status": "In progress",
+        "guest": 3,
+        "options": [
+          "Label",
+          "Label 2"
+        ]
+      }
+    ],
+    "In Progress": [
+      {
+        "id": 3,
+        "table_number": 6,
+        "name": "Steak Machette",
+        "time": "300",
+        "comment": "Without honey",
+        "code": "D17",
+        "status": "In progress",
+        "guest": 3,
+        "options": [
+          "Label",
+          "Label 2"
+        ]
+      },
+      {
+        "id": 4,
+        "table_number": 7,
+        "name": "Steak Machette",
+        "time": "1200",
+        "comment": "Without honey",
+        "code": "D17",
+        "status": "In progress",
+        "guest": 3,
+        "options": [
+          "Label",
+          "Label 2"
+        ]
+      }
+    ],
+    "Ready": [
+      {
+        "id": 5,
+        "table_number": 9,
+        "name": "Steak Machette",
+        "time": "540",
+        "comment": "Without honey",
+        "code": "D17",
+        "status": "In progress",
+        "guest": 3,
+        "options": [
+          "Label",
+          "Label 2"
+        ]
+      },
+      {
+        "id": 6,
+        "table_number": 10,
+        "name": "Steak Machette",
+        "time": "540",
+        "comment": "Without honey",
+        "code": "D17",
+        "status": "In progress",
+        "guest": 3,
+        "options": [
+          "Label",
+          "Label 2"
+        ]
+      }
+    ]
+  }
+}
