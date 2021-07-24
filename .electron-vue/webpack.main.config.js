@@ -33,7 +33,7 @@ let mainConfig = {
     __filename: process.env.NODE_ENV !== 'production'
   },
   output: {
-    filename: '[name].js',
+    filename: 'main.js',
     libraryTarget: 'commonjs2',
     path: path.join(__dirname, '../dist/electron')
   },
