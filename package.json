@@ -23,7 +23,25 @@
       "output": "build"
     },
     "files": [
-      "dist/electron/**/*"
+      "dist/electron/**/*",
+      "src/renderer/css/*",
+      "src/renderer/images/*"
+    ],
+    "extraFiles": [
+      {
+        "from": "src/renderer/css",
+        "to": "resources",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "src/renderer/images",
+        "to": "resources",
+        "filter": [
+          "**/*"
+        ]
+      }
     ],
     "dmg": {
       "contents": [

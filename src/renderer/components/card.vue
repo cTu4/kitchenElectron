@@ -48,8 +48,7 @@
 </template>
 
 <script>
-import Draggable from 'vuedraggable'
-import rawDisplayer from './rawDisplayer'
+
 import moment from 'moment';
 export default {
   name: 'app',

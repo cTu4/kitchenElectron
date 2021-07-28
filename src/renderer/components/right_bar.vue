@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="right-bar-cart order">
-        <img src="/src/renderer/images/Add.png">
+        <img :src="PathResource ? PathResource+ '/Add.png':'/src/renderer/images/Add.png'">
         <div class="t-17px font-weight-600">
           New Order
         </div>
@@ -58,6 +58,10 @@ export default {
       date(){
         let res = new Date();
         return res;
+      },
+      PathResource(){
+        console.log(process)
+        return  process.resourcesPath? process.resourcesPath: '';
       }
   },
   created() {
