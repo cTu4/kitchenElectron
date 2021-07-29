@@ -11,9 +11,17 @@ npm install
 # serve with hot reload at localhost:9080
 npm run dev
 
+#create pack for build
+npm run pack
+
 # build electron application for production
 npm run build
 
+#before build electron please use next
+npm run build:clean
+delete dir dist
+#and then
+npm run build
 
 ```
 

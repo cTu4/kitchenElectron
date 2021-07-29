@@ -1,11 +1,23 @@
-<script src="../../SeaFight/src/main.js"></script>
 <template>
   <div id="kitchen" class="d-flex">
-        <app-sidebar :tables=tables></app-sidebar>
+        <app-sidebar
+            :IsDev="IsDev"
+            :tables=tables>
+        </app-sidebar>
         <div class="kanban d-flex" >
-          <column @onFlow_column="changeStatusDish" v-for="(column, status, index) in kanban" :key="index" :id="index" :index="index" :column=column :status=status ></column>
+          <column
+              @onFlow_column="changeStatusDish"
+              v-for="(column, status, index) in kanban"
+              :key="index"
+              :id="index"
+              :index="index"
+              :column=column
+              :status=status >
+          </column>
         </div>
-        <right-bar></right-bar>
+        <right-bar
+            :IsDev="IsDev">
+        </right-bar>
   </div>
 
 </template>
@@ -105,7 +117,9 @@ export default {
     }
   },
   computed:{
-
+    IsDev(){
+      return  process.env.npm_package_name;
+    }
   },
   created() {
     // axios.get(" https://api.brest.app/tables/statuses").then((resp) =>{
@@ -182,6 +196,8 @@ export default {
 </script>
 
 <style>
+
+@import "css/style.css";
   body{
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none;   /* Chrome/Safari/Opera */

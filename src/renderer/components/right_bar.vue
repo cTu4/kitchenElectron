@@ -12,25 +12,25 @@
         </div>
       </div>
       <div class="right-bar-cart order">
-        <img :src="PathResource ? PathResource+ '/Add.png':'/src/renderer/images/Add.png'">
+        <img :src="IsDev ? '/src/renderer/images/Add.png':'/var/www/html/kitchenElectron/build/linux-unpacked/resources/images/Add.png' ">
         <div class="t-17px font-weight-600">
           New Order
         </div>
       </div>
       <div class="right-bar-cart issue">
-        <img src="/src/renderer/images/Check_Out.png">
+        <img :src="IsDev ? '/src/renderer/images/Check_Out.png':'/var/www/html/kitchenElectron/build/linux-unpacked/resources/images/Check_Out.png' " >
         <div class="t-17px font-weight-600">
           For Issue
         </div>
       </div>
       <div class="right-bar-cart cooks">
-        <img src="/src/renderer/images/Cooks.png">
+        <img :src="IsDev ? '/src/renderer/images/Cooks.png':'/var/www/html/kitchenElectron/build/linux-unpacked/resources/images/Cooks.png' ">
         <div class="t-17px font-weight-600">
           Cooks
         </div>
       </div>
       <div class="right-bar-cart waiters">
-        <img src="/src/renderer/images/Waiters.png">
+        <img :src="IsDev ? '/src/renderer/images/Waiters.png':'/var/www/html/kitchenElectron/build/linux-unpacked/resources/images/Waiters.png' ">
         <div class="t-17px font-weight-600">
           Waiters
         </div>
@@ -41,6 +41,9 @@
 <script>
 export default {
   name: 'app',
+  props:{
+    IsDev: String
+  },
   data () {
     return {
         time: ''
@@ -59,10 +62,7 @@ export default {
         let res = new Date();
         return res;
       },
-      PathResource(){
-        console.log(process)
-        return  process.resourcesPath? process.resourcesPath: '';
-      }
+
   },
   created() {
     this.setDate();

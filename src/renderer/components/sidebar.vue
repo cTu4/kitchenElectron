@@ -1,7 +1,7 @@
 <template>
     <div class="sidebar d-flex flex-column  align-items-center">
       <div class="menu text-center pointer">
-          <img src="/src/renderer/images/Union.png">
+          <img :src="IsDev ? '/src/renderer/images/Union.png':'/var/www/html/kitchenElectron/build/linux-unpacked/resources/images/Union.png'">
       </div>
       <div class="table-icon" :class="table.Status === 'Free' ?'blue':'white'" v-for="table in tables">
         <div class="t-13px font-weight-700" :class="table.Status === 'Free' ? 't-white':''">{{table.Number}}</div>
@@ -19,7 +19,10 @@ export default {
 
     }
   },
-  props: ['tables']
+  props: {
+    tables: Object,
+    IsDev: String
+  }
 }
 </script>
 
